@@ -8,9 +8,10 @@ using UnityEngine;
 public class FishmaelController : MonoBehaviour
 {
     public GameObject fishMael = null;
-    public Vector3 velocity = Vector3.zero;
     private Material basicScale = null;
     public Animator animator;
+
+    public Rigidbody body;
 
     private bool swimming = false;
     public bool blocking = false;
@@ -60,6 +61,7 @@ public class FishmaelController : MonoBehaviour
     {
         return AnimatorIsPlaying() && animator.GetCurrentAnimatorStateInfo(0).IsName(stateName);
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -83,27 +85,6 @@ public class FishmaelController : MonoBehaviour
             }
         }
 
-        
-        if (Input.GetKey(KeyCode.W))
-        {
-            velocity.x = -50;
-        }
-
-        if (Input.GetKey(KeyCode.S))
-        {
-            velocity.x = 50;
-        }
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            velocity.z = 50;
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            velocity.z = -50;
-        }
-
 
         if (blocking)
         {
@@ -117,15 +98,14 @@ public class FishmaelController : MonoBehaviour
         }
 
 
-        if (velocity.magnitude > 2)
+        if (body.velocity.magnitude > 2)
         {
-            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AxisAngle(Vector3.up, Mathf.Atan2(velocity.z, -velocity.x)), .3f);
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.AxisAngle(Vector3.up, Mathf.Atan2(body.velocity.z, -body.velocity.x)), .3f);
         }
-        transform.position += velocity * Time.deltaTime;
 
         if (!blocking)
         {
-            if (velocity.magnitude > 5)
+            if (body.velocity.magnitude > 5)
             {
                 if (!swimming)
                 {
@@ -142,7 +122,5 @@ public class FishmaelController : MonoBehaviour
                 }
             }
         }
-        
-        velocity = velocity * .8f * Time.deltaTime;
     }
 }
