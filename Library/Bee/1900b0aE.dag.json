@@ -19387,8 +19387,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1305101,
       "PayloadLength": 27331,
+=======
+      "PayloadOffset": 1443869,
+      "PayloadLength": 32535,
+>>>>>>> 62891a2afaad14fec76b748384da5de5536ab3f6
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -19400,7 +19405,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1332519,
+=======
+      "PayloadOffset": 1476491,
+>>>>>>> 62891a2afaad14fec76b748384da5de5536ab3f6
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19647,8 +19656,14 @@
         "Assets/Fishmael/FishmaelController.cs",
         "Assets/Fishmael/FishmaelMovement.cs",
         "Assets/MainScript.cs",
+<<<<<<< HEAD
         "D:/Unity/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "D:/Unity/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+=======
+        "Assets/NPC/InteractWith.cs",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+>>>>>>> 62891a2afaad14fec76b748384da5de5536ab3f6
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
       ],
       "Outputs": [
@@ -19885,7 +19900,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1332615,
+=======
+      "PayloadOffset": 1476587,
+>>>>>>> 62891a2afaad14fec76b748384da5de5536ab3f6
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],

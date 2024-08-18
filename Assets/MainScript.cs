@@ -2,21 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MainScript : MonoBehaviour
-{
-    public Camera camera = null;
-    public Transform fishmaelTransform = null;
+public class MainScript : MonoBehaviour {
+
+    public Transform fishmaelTransform;
+    private Vector3 offset;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
+    void Start() {
+        offset = transform.localPosition;
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        camera.transform.position = fishmaelTransform.position + new Vector3(20, 30, 20);
-        camera.transform.LookAt(fishmaelTransform, Vector3.up);
+    void Update() {
+        transform.position = fishmaelTransform.position + offset;
+        // transform.LookAt(fishmaelTransform, Vector3.up);
     }
 }
