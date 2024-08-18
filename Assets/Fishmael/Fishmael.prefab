@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 3
+  rotationSpeed: 3
   body: {fileID: 8786704562891748833}
 --- !u!1001 &3428180833442535837
 PrefabInstance:
