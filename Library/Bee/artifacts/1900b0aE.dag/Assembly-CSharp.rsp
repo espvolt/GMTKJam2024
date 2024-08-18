@@ -355,6 +355,7 @@
 "Assets/Fishmael/FishmaelController.cs"
 "Assets/Fishmael/FishmaelMovement.cs"
 "Assets/MainScript.cs"
+"Assets/NPC/InteractWith.cs"
 -langversion:9.0
 /deterministic
 /optimize+
