@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5705943625229187283}
+  - component: {fileID: 4337452381473896920}
+  - component: {fileID: 5159533348002826378}
   m_Layer: 0
   m_Name: LightBall
   m_TagString: Untagged
@@ -32,6 +34,47 @@ Transform:
   - {fileID: 1866107619895167038}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4337452381473896920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130781149414104179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7eb0dd29612dd34bbf0a9e4fa19e378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphereCollider: {fileID: 1952108507650370172}
+  force: {x: 0, y: 0, z: 0}
+--- !u!54 &5159533348002826378
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130781149414104179}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
 --- !u!1 &8338618404996614848
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,7 +86,7 @@ GameObject:
   - component: {fileID: 1866107619895167038}
   - component: {fileID: 8233876740569432647}
   - component: {fileID: 8167372794558886373}
-  - component: {fileID: 7032101338281332903}
+  - component: {fileID: 1952108507650370172}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -116,8 +159,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &7032101338281332903
-SphereCollider:
+--- !u!136 &1952108507650370172
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,6 +177,8 @@ SphereCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Radius: 0.5
+  m_Height: 5
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}

@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Jams\\GMTK 24\\GMTK 24\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\bubblecolumn\\bubblecolumnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\bubblecolumn\\bubblecolumnscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\fishmael\\fishmaelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\fishmael\\fishmaelmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\angler\\lightballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\angler\\lightballscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\angler\\anglercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\angler\\anglercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\fishmael\\fishmaelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\fishmael\\fishmaelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|d:\\jams\\gmtk 24\\gmtk 24\\assets\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34C9F535-5355-386B-C147-3BF6D79D30D0}|Assembly-CSharp.csproj|solutionrelative:assets\\mainscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +34,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FishmaelMovement.cs",
+              "DocumentMoniker": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Fishmael\\FishmaelMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Fishmael\\FishmaelMovement.cs",
+              "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Fishmael\\FishmaelMovement.cs",
+              "RelativeToolTip": "Assets\\Fishmael\\FishmaelMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:24:49.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BubbleColumnScript.cs",
+              "DocumentMoniker": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\BubbleColumn\\BubbleColumnScript.cs",
+              "RelativeDocumentMoniker": "Assets\\BubbleColumn\\BubbleColumnScript.cs",
+              "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\BubbleColumn\\BubbleColumnScript.cs",
+              "RelativeToolTip": "Assets\\BubbleColumn\\BubbleColumnScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T18:35:10.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LightBallScript.cs",
+              "DocumentMoniker": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Angler\\LightBallScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Angler\\LightBallScript.cs",
+              "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Angler\\LightBallScript.cs",
+              "RelativeToolTip": "Assets\\Angler\\LightBallScript.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwB0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T17:41:24.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AnglerController.cs",
               "DocumentMoniker": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Angler\\AnglerController.cs",
               "RelativeDocumentMoniker": "Assets\\Angler\\AnglerController.cs",
-              "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Angler\\AnglerController.cs*",
-              "RelativeToolTip": "Assets\\Angler\\AnglerController.cs*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEUAAAAmAAAAAAAAAA==",
+              "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Angler\\AnglerController.cs",
+              "RelativeToolTip": "Assets\\Angler\\AnglerController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwC0AAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T05:03:39.047Z",
               "EditorCaption": ""
@@ -45,13 +96,14 @@
               "RelativeDocumentMoniker": "Assets\\MainScript.cs",
               "ToolTip": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\MainScript.cs",
               "RelativeToolTip": "Assets\\MainScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-17T17:53:25.662Z"
+              "WhenOpened": "2024-08-17T17:53:25.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "FishmaelController.cs",
               "DocumentMoniker": "D:\\Jams\\GMTK 24\\GMTK 24\\Assets\\Fishmael\\FishmaelController.cs",
               "RelativeDocumentMoniker": "Assets\\Fishmael\\FishmaelController.cs",

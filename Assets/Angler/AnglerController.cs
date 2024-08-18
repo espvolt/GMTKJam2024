@@ -40,6 +40,10 @@ public class AnglerController : MonoBehaviour
             if (shootingTimer > 1.0)
             {
                 shooting = false;
+                //currentLightBall.transform.position = new Vector3(.05f, 0, 0);
+                LightBallScript currentLightBallScript = currentLightBall.GetComponent<LightBallScript>();
+                currentLightBallScript.MakeActive();
+                currentLightBallScript.ShootAt(fishronTransform.position);
             }
 
             //Debug.Log(animator.GetCurrentAnimatorStateInfo(0).IsName("Shooting") + " " + animator.GetCurrentAnimatorClipInfo(0).Length);
@@ -68,7 +72,7 @@ public class AnglerController : MonoBehaviour
                     shootingShot = false;
                     shootingTimer = 0;
                     currentLightBall = Instantiate(lightBallPrefab, transform.Find("angler2/Armature/Bone/Bone.002/Bone.003/Bone.004"), false);
-                    currentLightBall.transform.SetParent(transform.Find("angler2/Armature/Bone/Bone.002/Bone.003/Bone.004"));
+                    //currentLightBall.transform.SetParent(transform.Find("angler2/Armature/Bone/Bone.002/Bone.003/Bone.004"));
                     currentLightBall.transform.Find("Sphere").localScale = new Vector3(.01f, .01f, .01f);
                 }
                 actionTimer = 0;

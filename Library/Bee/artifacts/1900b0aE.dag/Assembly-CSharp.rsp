@@ -358,6 +358,7 @@
 -analyzer:"D:/Unity/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Angler/AnglerController.cs"
 "Assets/Angler/LightBallScript.cs"
+"Assets/BubbleColumn/BubbleColumnScript.cs"
 "Assets/Fishmael/FishmaelController.cs"
 "Assets/Fishmael/FishmaelMovement.cs"
 "Assets/MainScript.cs"
